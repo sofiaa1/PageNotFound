@@ -1,0 +1,36 @@
+ body {
+  background-image: url('./../images/background.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ }
+ 
+ .container{
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.status-code{
+   display: flex;
+   align-items:center;
+}
+
+.number{
+   font-size: 125px;
+}
+
+.icon img{
+   width:100px;
+}
+
+.status-description{
+   text-align:center;
+}
+
+.status-description a{
+   color:rgb(186, 186, 21);
+   text-decoration:none;
+}
